@@ -15,7 +15,9 @@
     --body-bgColor: hsl(30, 54%, 90%);
     --article-bgColor: hsl(0, 0%, 100%);
     --dishInfo-bgColor: hsl(330, 100%, 98%);
-    --textColor: hsl(24, 5%, 18%);
+    --textColor: hsl(30, 10%, 34%);
+    --h1-color: hsl(24, 5%, 18%);
+    
 
     /* Espaçamentos */
     --text-spacing: 16px 0px;
@@ -34,11 +36,10 @@ body {
 article {
     /* Cores de fundo */
     background-color: var(--article-bgColor);
-    border: 2px solid black;
 
     /* Espaçamentos e tamanhos */
     border-radius: 8px;
-    padding: 20px;
+    padding: 32px;
     max-width: 720px;
     width: 100%;
 
@@ -58,8 +59,10 @@ article img {
 h1 {
     /* Espaçamento */
     margin: var(--text-spacing);
-    color: var(--textColor);
+    color: var(--h1-color);
     font-family: var(--font-secondary);
+    
+    /* Fonte */
     font-weight: 400;
 }
 
@@ -68,7 +71,10 @@ h2 {
     /* Espaçamento */
     margin: var(--text-spacing);
     color: var(--textColor);
-    font-family: var(--font-primary);
+    
+    /* Fonte */
+    font-family: var(--font-secondary);
+    font-weight: 400;
 }
 
 /* Paragrafos */
@@ -77,17 +83,47 @@ p {
     margin: var(--text-spacing);
     color: var(--textColor);
 
+    /* Fonte */
+    font-family: var(--font-primary);
+    font-weight: 400px;
+
 }
 
-/* Estilizando a seção dish info */
+/* ------ Estilizando a seção dish info  -------------*/
 .dish-info {
     /* Cor de fundo */
     background-color: var(--dishInfo-bgColor);
     padding: 16px;
+
+    /* Borda arredondada */
     border-radius: 16px;
 }
 
 .dish-info h2 {
+    /*Cores e espaçamentos */
     margin: 0;
+    padding-left: 8px;
     color: hsl(332, 51%, 32%);
+
+    /* Fonte */
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+ul li {
+    /* Espaçamentos */
+    padding: 0px 16px;
+    margin: 8px 28px;
+    color: var(--textColor);
+    font-family: var(--font-primary);
+}
+
+strong {
+    /* Fonte */
+    color: var(--textColor);
+    font-family: var(--font-primary);
+    font-weight: 700;
+    
 }
