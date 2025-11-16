@@ -89,7 +89,7 @@ p {
 
 }
 
-/* ------ Estilizando a seção dish info  -------------*/
+/* ------ Estilizando a seção dish info  -----------------------*/
 .dish-info {
     /* Cor de fundo */
     background-color: var(--dishInfo-bgColor);
@@ -131,6 +131,8 @@ strong {
     font-weight: 700;
     
 }
+/* --------------------------------------------------------- */
+
 /*------------ Estilização da section ingredients --------- */
 .ingredients {
     margin: 24px 0px;
@@ -139,3 +141,23 @@ strong {
 .ingredients ul li::marker {
     color: var(--h2-color)
 }
+/* --------------------------------------------------------- */
+
+/* ------------ Estilização da section instructions ------- */
+.instructions {
+    margin: 24px 0px;
+}
+
+.instructions ol li {
+    padding: 0px 16px;
+    margin: 16px 28px;
+    text-align: justify;
+    color: var(--textColor);
+    font-family: var(--font-primary);
+}
+
+.instructions ol li::marker {
+    color: var(--h2-color);
+    font-weight: 700;
+}
+/* --------------------------------------------------------- */
