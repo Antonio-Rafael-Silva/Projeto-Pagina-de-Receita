@@ -1,0 +1,20 @@
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    
+    /* Variáveis globais */
+    :root {
+        --body-bgColor: hsl(0, 0%, 100%);
+    }
+
+    article {
+        padding: 16px;
+        margin: auto;
+    }
+
+    
+    article img {
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+    }
+}
