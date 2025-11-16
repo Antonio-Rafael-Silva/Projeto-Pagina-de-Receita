@@ -17,7 +17,7 @@
     --dishInfo-bgColor: hsl(330, 100%, 98%);
     --textColor: hsl(30, 10%, 34%);
     --h1-color: hsl(24, 5%, 18%);
-    
+    --h2-color: hsl(14, 45%, 36%);
 
     /* Espaçamentos */
     --text-spacing: 16px 0px;
@@ -70,7 +70,7 @@ h1 {
 h2 {
     /* Espaçamento */
     margin: var(--text-spacing);
-    color: var(--textColor);
+    color: var(--h2-color);
     
     /* Fonte */
     font-family: var(--font-secondary);
@@ -115,9 +115,13 @@ p {
 ul li {
     /* Espaçamentos */
     padding: 0px 16px;
-    margin: 8px 28px;
+    margin: 16px 28px;
     color: var(--textColor);
     font-family: var(--font-primary);
+}
+
+ul li::marker {
+    color: hsl(332, 51%, 32%); /* cor da bolinha */
 }
 
 strong {
@@ -126,4 +130,12 @@ strong {
     font-family: var(--font-primary);
     font-weight: 700;
     
+}
+/*------------ Estilização da section ingredients --------- */
+.ingredients {
+    margin: 24px 0px;
+}
+
+.ingredients ul li::marker {
+    color: var(--h2-color)
 }
