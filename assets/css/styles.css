@@ -1,0 +1,93 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap'); /* Young Serif */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap'); /* Outfit */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis globais */
+:root {
+    /* Cores */
+    --body-bgColor: hsl(30, 54%, 90%);
+    --article-bgColor: hsl(0, 0%, 100%);
+    --dishInfo-bgColor: hsl(330, 100%, 98%);
+    --textColor: hsl(24, 5%, 18%);
+
+    /* Espaçamentos */
+    --text-spacing: 16px 0px;
+
+    /* Fontes */
+    --font-primary: 'Outfit', sans-serif;
+    --font-secondary: 'Young Serif', serif;
+}
+
+/* Cor do body */
+body {
+    background-color: var(--body-bgColor);
+}
+
+/* Estilizando a tag article */
+article {
+    /* Cores de fundo */
+    background-color: var(--article-bgColor);
+    border: 2px solid black;
+
+    /* Espaçamentos e tamanhos */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 720px;
+    width: 100%;
+
+    /* Centralizando article na página */
+    display: block;
+    margin: 24px auto;
+    
+}
+
+/* Estilizando a imagem dentro de article */
+article img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Títulos h1 */
+h1 {
+    /* Espaçamento */
+    margin: var(--text-spacing);
+    color: var(--textColor);
+    font-family: var(--font-secondary);
+    font-weight: 400;
+}
+
+/* Títulos h2 */
+h2 {
+    /* Espaçamento */
+    margin: var(--text-spacing);
+    color: var(--textColor);
+    font-family: var(--font-primary);
+}
+
+/* Paragrafos */
+p {
+    /* Espaçamento */
+    margin: var(--text-spacing);
+    color: var(--textColor);
+
+}
+
+/* Estilizando a seção dish info */
+.dish-info {
+    /* Cor de fundo */
+    background-color: var(--dishInfo-bgColor);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.dish-info h2 {
+    margin: 0;
+    color: hsl(332, 51%, 32%);
+}
