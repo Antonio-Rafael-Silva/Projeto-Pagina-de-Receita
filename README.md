@@ -44,5 +44,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Autor
 
 - Website - [Antônio Rafael]()
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Antonio-Rafael-Silva)
+- Frontend Mentor - [@Antonio-Rafael-Silva](https://www.frontendmentor.io/profile/Antonio-Rafael-Silva)
 - Linkedin - [Antônio Rafael](https://www.linkedin.com/in/ant%C3%B4nio-rafael-01131b372/)
