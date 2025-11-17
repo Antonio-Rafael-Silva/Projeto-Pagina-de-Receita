@@ -26,8 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### Links
 
-- URL da Solução: [](https://github.com/Antonio-Rafael-Silva/Projeto-Pagina-de-Receita)
-- URL do Site: [](https://antonio-rafael-silva.github.io/Projeto-Pagina-de-Receita/)
+- Acesse a URL da solução [clicando aqui](https://github.com/Antonio-Rafael-Silva/Projeto-Pagina-de-Receita)
+- Acesse o site do projeto [clicando aqui](https://antonio-rafael-silva.github.io/Projeto-Pagina-de-Receita/)
 
 ## Screenshot do resultado
 
